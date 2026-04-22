@@ -3,9 +3,8 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 // Import typescript types so our app knows what the data looks like
 import type { Movie, PaginatedResponse } from '../types';
 
-// NOTE: You must provide a valid TheMovieDB (TMDB) API Key here for the project to work.
-// Go to https://developer.themoviedb.org/docs/getting-started to get an API key.
-const API_KEY = '18b5ea8bf1d8535e39e8bcbbedf53ced';
+
+const API_KEY = 'APIKEYGOESHERE';
 
 /**
  * RTK Query (Redux Toolkit Query) is used here to handle data fetching.
